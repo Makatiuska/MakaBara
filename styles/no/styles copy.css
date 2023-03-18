@@ -1,0 +1,227 @@
+/* Font Logo*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Home*/
+
+body{
+
+    background-color: #FFF5E5;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 3px;
+    padding: 10px 50px 20px;
+
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+
+
+
+
+h1{
+
+    font-size: 800%;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #148467;
+    text-align: center;
+    line-height: 5%;
+    font-weight: 300;
+
+}
+
+h2{
+
+    font-size: 300%;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #148467;
+    line-height: 5%;
+    font-weight: 300;
+
+}
+
+.h4-rotate{
+    font-size: 80%;
+    transform: rotate(180de);
+    writing-mode: vertical-lr;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.span-register{
+    font-size: 80%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+a {
+    color: #05231C;
+    text-decoration: none;
+    
+}
+
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar ul {
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Space Mono', monospace;
+
+
+}
+
+.navbar a {
+    text-decoration: underline 1px #FFD799;
+    text-underline-offset: 5px;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    text-decoration: underline 30px #FFD799;
+
+}
+
+.navbar-list {
+    display: none;
+}
+
+
+
+.maka-logo {
+    width: 2%;
+    margin-bottom: 10px;
+}
+
+/*Main Btn*/
+
+.about-maka {
+    margin: 100px 0 0 10px;
+}
+
+.about-maka h2 {
+    font-size: 2em;
+    width: 30%;
+}
+
+.about-maka a {
+    display: block;
+    border: 2px solid #148467;
+    border-radius: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 110px;
+    text-align: center;
+    transition: 0.3s;
+    
+
+}
+
+.about-maka a:hover {
+    background-color: #FFD799;
+    color: black;
+}
+
+
+.flex-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer*/
+
+
+#hr{
+    line-height: normal;
+    color: #148467;
+}
+.footer {
+
+    height: 15vh;
+    padding-left: 20px;
+}
+
+.footer nav {
+    height: 100%;
+}
+
+.footer li {
+    font-size: 12px;
+    margin: 0 20px;
+    list-style: none;
+
+}
+
+.footer-list small {
+    color: #979797;
+}
+
+.footer-list a {
+    transition: 0.3s;
+}
+
+.footer-list a:hover {
+    color: #979797;
+}
+
+
+/*end footer*/
+
+
+
+/*Test Colums Pictures*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    /*/
+    grid-template-columns: 50px auto 50px auto;
+    /*gap: 10px;*/
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  /*/
+.grid-row{
+
+    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: auto;
+}
+
+
+
+/*/
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.col1, .col2, .col3, .col4 {
+  padding: 10px;
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}

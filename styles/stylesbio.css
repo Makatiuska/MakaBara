@@ -1,0 +1,393 @@
+/* Font Logo*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Home*/
+
+body{
+
+    background-color: #FFF5E5;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 100%;
+    padding: 10px 50px 20px;
+    color: #05231C;
+
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+.foto{
+
+    float: left;
+}
+
+.go-all{
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: underline;
+    color: #05231C;
+    background-color: #22DDAD;
+
+}
+
+.colab-hover{
+
+    background-color: #22DDAD;
+
+}
+
+
+h1{
+
+    font-size: 800%;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #148467;
+    text-align: center;
+    line-height: 100%;
+    font-weight: 300;
+
+}
+
+h2{
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 56px;
+    /* or 124% */
+    /* G PRIMARY */
+    color: #148467;
+
+}
+.h2-medium{
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    /* or 124% */
+    /* G PRIMARY */
+    color: #05231C;
+
+}
+
+
+
+.h2-title{
+    font-weight: 300;
+}
+
+
+h3{
+
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        /* or 150% */
+        letter-spacing: 0.015em;
+        /* G10 */
+        color: #05231C; 
+
+}
+
+h4{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    text-transform: capitalize;
+    /* G10 */
+    color: #05231C; 
+}
+
+
+.h4-rotate{
+    transform: rotate(180de);
+    writing-mode: vertical-lr;
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.span-register{
+    font-size: 80%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+a {
+    color: #05231C;
+    text-decoration: none;
+
+}
+
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar ul {
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    /* G10 */
+    color: #05231C;
+
+}
+
+.navbar a {
+    text-decoration: underline 1px #FFD799;
+    text-underline-offset: 5px;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    text-decoration: underline 8px #FFD799;
+
+}
+
+.navbar-list {
+    display: none;
+}
+
+
+
+.maka-logo {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/*Main Btn*/
+
+.about-maka {
+    margin: 100px 0 0 10px;
+}
+
+.about-maka h2 {
+    font-size: 2em;
+    width: 30%;
+}
+
+.about-maka a {
+    display: block;
+    border: 2px solid #148467;
+    border-radius: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 110px;
+    text-align: center;
+    transition: 0.3s;
+    
+
+}
+
+.about-maka a:hover {
+    background-color: #FFD799;
+    color: black;
+}
+
+
+.flex-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Hover color photo*/
+
+
+.img {
+    float:left; 
+    box-shadow: -20px 0px #FFD799;
+    padding: 0px;
+    border: 8px solid FFF5E5;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    margin:0;
+    transition: 0.3s;
+}
+
+.img:hover {
+    box-shadow: 20px 0px #FFD799;
+    background-color: #ffffff;
+    filter: blur(2px);
+    color: white;
+    transform: translateX(10px) translateY(-0px) rotateZ(0deg);
+    z-index: 1;
+}
+.img:mouseout {
+    background-color: #fff;
+    color: #148467;
+    transform: translateX(0) translateY(0) rotateZ(0deg);
+    z-index: 0;
+}
+
+
+
+/*Prueba Final Grids*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+    gap: 10px;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .grid-item {
+
+    padding: 10px;
+    list-style: none;
+    justify-content: left;
+    align-items: left;
+    border-bottom: 2px solid #148467;
+
+  }
+  
+  .grid-item li {
+    margin-bottom: 4vh;
+    justify-content:left;
+    list-style: none;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .grid-item a{
+    text-decoration: underline 0px hsl(36, 100%, 80%, 0.05);
+    text-underline-offset: 5px;
+    transition: 0.5s;
+
+  }
+
+  .grid-item a:hover {
+    text-decoration: underline 8px #FFD799;
+
+}
+
+  
+  /*Button Animation*/
+
+  .button {
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border: 2px solid #148467;
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+    
+
+
+  }
+
+  
+  .button:hover {
+    background-color: #FFD799;
+    color: white;
+    transform: translateX(10px) translateY(-10px) rotateZ(5deg);
+    z-index: 1;
+  }
+  
+  .button:mouseout {
+    background-color: #fff;
+    color: #148467;
+    transform: translateX(0) translateY(0) rotateZ(0deg);
+    z-index: 0;
+  }
+  
+
+/*Pointer custom*/
+
+body, a , button {
+    cursor: url(../images/pics_Main/cursor.gif) 50 50, auto;
+}
+
+
+/*Photo cards*/
+.photocards{
+    display: flex;
+    padding: 5%;
+}
+
+/*colab*/
+.colab{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*Text article color */
+
+.bg-column{
+   background-color: #FFEBCC; 
+   padding: 20px;
+   border: 8px;
+   border-radius: 8px;
+}
+
+
+
+
+/*Cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 120px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card h2 {
+    margin: 0;
+    padding: .5rem;
+}
+
+.card .content {
+    padding: .5rem;
+}
+
+.card footer {
+    background-color: #333;
+    color: #fff;
+    padding: .5rem;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45vh, 1fr));
+    gap: 10px;
+    justify-content: left;
+    align-items: left;
+}
